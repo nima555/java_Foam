@@ -2,6 +2,7 @@
 
 java basic class list
 
+main
 lattice
 VTX_I
 VTX_O
