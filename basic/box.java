@@ -2,7 +2,7 @@ package basic;
 
 import java.util.ArrayList;
 
-public class box {
+public class box extends fields{
 
     int label;
     
@@ -10,4 +10,12 @@ public class box {
     ArrayList<Double> surface = new ArrayList<>();
     double volume;
 
+    public box(ArrayList<Double> point, ArrayList<Double> surface, int i){
+
+        this.label = i;
+        this.point = point;
+        this.surface = surface;
+        volume = surface.get(0)*surface.get(1);
+
+    }
 }
